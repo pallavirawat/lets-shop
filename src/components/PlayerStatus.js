@@ -12,6 +12,8 @@ function PlayerStatus(props) {
             <span className="sr-only">unread messages</span>
         </Button>
 
+        {/*todo style this stage*/}
+        <span>STAGE NUMBER {props.stage}</span>
         <Button variant={bootstapVariant.LIGHT} className={"creditLimit"}>
             Credit Limit <Badge variant="success">{`${props.creditLimit.toFixed(2)} ${currencySymbol}`} </Badge>
             <span className="sr-only">unread messages</span>
@@ -21,7 +23,8 @@ function PlayerStatus(props) {
 
 PlayerStatus.propTypes = {
     deathCount: PropTypes.number.isRequired,
-    creditLimit: PropTypes.number.isRequired
+    creditLimit: PropTypes.number.isRequired,
+    stage: PropTypes.number
 };
 
 export default PlayerStatus

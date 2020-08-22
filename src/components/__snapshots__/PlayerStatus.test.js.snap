@@ -24,6 +24,9 @@ Object {
             unread messages
           </span>
         </button>
+        <span>
+          STAGE NUMBER 
+        </span>
         <button
           class="creditLimit btn btn-light"
           type="button"
@@ -64,6 +67,9 @@ Object {
           unread messages
         </span>
       </button>
+      <span>
+        STAGE NUMBER 
+      </span>
       <button
         class="creditLimit btn btn-light"
         type="button"
