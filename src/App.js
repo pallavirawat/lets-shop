@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.scss';
 import Products from "./Components/Products";
+import PlayerStatus from "./Components/PlayerStatus";
 
 function App() {
   return (
     <div className="App">
-      {/*<header className="App-header">*/}
-          <Products/>
-      {/*</header>*/}
+        <PlayerStatus/>
+        <Products/>
     </div>
   );
 }

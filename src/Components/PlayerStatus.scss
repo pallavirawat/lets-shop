@@ -1,0 +1,17 @@
+@import "../sass/variables";
+
+.PlayerStatus{
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+  background-color: $theme-2 ;
+  padding: 12px 40px;
+}
+
+.deathCount{
+  pointer-events: none;
+}
+
+.creditLimit{
+  pointer-events: none;
+}

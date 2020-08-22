@@ -15,3 +15,14 @@ export const productlist = [
         image: "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/1392352/2016/10/4/11475579108886-Fossil-Men-Navy-Dial-Watch-ME1138-3141475579108667-1.jpg"
     }
 ]
+
+export const bootstapVariant = {
+    PRIMARY : 'primary',
+    SECONDARY: 'secondary',
+    SUCCESS : 'success',
+    DANGER :'danger',
+    WARNING : 'warning',
+    INFO : 'info',
+    LIGHT : 'light',
+    DARK : 'dark',
+}

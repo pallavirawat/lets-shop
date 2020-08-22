@@ -1,21 +1,21 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import {productlist} from "../data/constants";
+import {bootstapVariant, productlist} from "../data/constants";
 import './Products.scss'
 
 function Products(props) {
     return <div className="Products" >
         {
-            productlist.map((product, index) => (
-                <Card className="Card" key={index}>
+            productlist.map((product, idx) => (
+                <Card className="Card" key={idx} bg={bootstapVariant.WARNING} border={bootstapVariant.LIGHT}>
                     <Card.Img variant="top" src={product.image} />
                     <Card.Body>
                     <Card.Title>{product.name}</Card.Title>
                     <Card.Text>
                         {product.cost}$
                     </Card.Text>
-                        <Button variant="primary">Buy Now</Button>
+                        <Button variant={bootstapVariant.INFO}>Buy Now</Button>
                     </Card.Body>
                 </Card>
             )
