@@ -9,7 +9,7 @@ Object {
         class="Products"
       >
         <div
-          class="Card card"
+          class="Card card bg-warning border-light"
         >
           <img
             class="card-img-top"
@@ -26,11 +26,10 @@ Object {
             <p
               class="card-text"
             >
-              35
-              $
+              35 $
             </p>
             <button
-              class="btn btn-primary"
+              class="btn btn-info"
               type="button"
             >
               Buy Now
@@ -38,7 +37,7 @@ Object {
           </div>
         </div>
         <div
-          class="Card card"
+          class="Card card bg-warning border-light"
         >
           <img
             class="card-img-top"
@@ -55,11 +54,10 @@ Object {
             <p
               class="card-text"
             >
-              50
-              $
+              50 $
             </p>
             <button
-              class="btn btn-primary"
+              class="btn btn-info"
               type="button"
             >
               Buy Now
@@ -67,7 +65,7 @@ Object {
           </div>
         </div>
         <div
-          class="Card card"
+          class="Card card bg-warning border-light"
         >
           <img
             class="card-img-top"
@@ -84,11 +82,10 @@ Object {
             <p
               class="card-text"
             >
-              40
-              $
+              40 $
             </p>
             <button
-              class="btn btn-primary"
+              class="btn btn-info"
               type="button"
             >
               Buy Now
@@ -103,7 +100,7 @@ Object {
       class="Products"
     >
       <div
-        class="Card card"
+        class="Card card bg-warning border-light"
       >
         <img
           class="card-img-top"
@@ -120,11 +117,10 @@ Object {
           <p
             class="card-text"
           >
-            35
-            $
+            35 $
           </p>
           <button
-            class="btn btn-primary"
+            class="btn btn-info"
             type="button"
           >
             Buy Now
@@ -132,7 +128,7 @@ Object {
         </div>
       </div>
       <div
-        class="Card card"
+        class="Card card bg-warning border-light"
       >
         <img
           class="card-img-top"
@@ -149,11 +145,10 @@ Object {
           <p
             class="card-text"
           >
-            50
-            $
+            50 $
           </p>
           <button
-            class="btn btn-primary"
+            class="btn btn-info"
             type="button"
           >
             Buy Now
@@ -161,7 +156,7 @@ Object {
         </div>
       </div>
       <div
-        class="Card card"
+        class="Card card bg-warning border-light"
       >
         <img
           class="card-img-top"
@@ -178,11 +173,10 @@ Object {
           <p
             class="card-text"
           >
-            40
-            $
+            40 $
           </p>
           <button
-            class="btn btn-primary"
+            class="btn btn-info"
             type="button"
           >
             Buy Now

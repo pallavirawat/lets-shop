@@ -32,7 +32,8 @@ Object {
           <span
             class="badge badge-success"
           >
-            500.00 $
+            200.00 $
+             
           </span>
           <span
             class="sr-only"
@@ -71,7 +72,8 @@ Object {
         <span
           class="badge badge-success"
         >
-          500.00 $
+          200.00 $
+           
         </span>
         <span
           class="sr-only"

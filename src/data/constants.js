@@ -26,3 +26,5 @@ export const bootstapVariant = {
     LIGHT : 'light',
     DARK : 'dark',
 }
+
+export const currencySymbol = "$"

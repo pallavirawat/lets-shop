@@ -4,6 +4,6 @@ import Products from "./Products";
 
 describe('Products', function () {
     it('should render', function () {
-        expect(render(<Products/>)).toMatchSnapshot();
+        expect(render(<Products deathCount={3}/>)).toMatchSnapshot();
     });
 });

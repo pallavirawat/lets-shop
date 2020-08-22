@@ -1,7 +1,8 @@
+import * as PropTypes from "prop-types";
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import {bootstapVariant, productlist} from "../data/constants";
+import {bootstapVariant, currencySymbol, productlist} from "../data/constants";
 import './Products.scss'
 
 function Products(props) {
@@ -13,7 +14,7 @@ function Products(props) {
                     <Card.Body>
                     <Card.Title>{product.name}</Card.Title>
                     <Card.Text>
-                        {product.cost}$
+                        {`${product.cost} ${currencySymbol}`}
                     </Card.Text>
                         <Button variant={bootstapVariant.INFO}>Buy Now</Button>
                     </Card.Body>
@@ -24,7 +25,9 @@ function Products(props) {
     </div>;
 }
 
-Products.propTypes = {};
+Products.propTypes = {
+    deathCount: PropTypes.number.isRequired
+};
 
 Products.defaultProps = {}
 export default Products

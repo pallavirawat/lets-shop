@@ -4,6 +4,6 @@ import PlayerStatus from "./PlayerStatus";
 
 describe('PlayerStatus', function () {
     it('should render', function () {
-        expect(render(<PlayerStatus/>)).toMatchSnapshot();
+        expect(render(<PlayerStatus creditLimit={200} deathCount={3}/>)).toMatchSnapshot();
     });
 });
