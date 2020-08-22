@@ -1,3 +1,5 @@
+import {initialCreditLimit, initialDeathCount, initialStage} from "./configuration";
+
 export const DecisionResultTypes = {
     PASS: "PASS",
     GIFT_CARD_WIN: "GIFT_CARD_WIN",
@@ -32,4 +34,10 @@ export function changePlayerStatus(decision,
             setCreditLimit(0)
             break;
     }
+}
+
+export function restartShopping(setCreditLimit, setDeathCount, setStage){
+    setCreditLimit(initialCreditLimit)
+    setDeathCount(initialDeathCount)
+    setStage(initialStage)
 }

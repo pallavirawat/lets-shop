@@ -2,13 +2,14 @@ import React, {useState} from 'react';
 import './App.scss';
 import Products from "./components/Products";
 import PlayerStatus from "./components/PlayerStatus";
+import {initialCreditLimit, initialDeathCount, initialStage} from "./engineDynamics/configuration";
 
 function App() {
-    const [deathCount, setDeathCount] = useState(3)
-    const [creditLimit, setCreditLimit] = useState(500)
-    const [stage, setStage] = useState(1)
+    const [deathCount, setDeathCount] = useState(initialDeathCount)
+    const [creditLimit, setCreditLimit] = useState(initialCreditLimit)
+    const [stage, setStage] = useState(initialStage)
     console.log(`deathcount ${deathCount} creditlimit ${creditLimit} stage ${creditLimit}`)
-      
+
     return (
         <div className="App">
             <PlayerStatus deathCount={deathCount} creditLimit={creditLimit} stage={stage}/>
